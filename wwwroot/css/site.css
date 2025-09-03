@@ -1,0 +1,134 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.first-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5px;
+  background-color: #d84417;
+}
+
+.loginButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: #d84417;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton:hover {
+  background-color: #d84417;
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Style Client First Page*/
+
+.clientFirstPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5px;
+  background-color: #d84417;
+}
+
+.CardapioContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 5px;
+  background-color: #d84417;
+}
+
+.retangularProduct {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.addToCar {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  border: 2px solid #d84417;
+  color: #d84417;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addToCar:hover {
+  background-color: #d84417;
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 943px) {
+  .retangularProduct {
+    width: 90%;
+    height: auto;
+  }
+
+  .addToCar {
+    width: 100%;
+    height: 50px;
+    font-size: large;
+  }
+
+}
