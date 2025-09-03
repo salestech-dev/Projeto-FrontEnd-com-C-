@@ -66,11 +66,7 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <a itemid="car" class="nav-link @(ViewBag.DesativarCarrinho ? "disabled" : "")" asp-area=""
-                            asp-controller="User" asp-action="Cart"
-                            aria-disabled="@(ViewBag.DesativarCarrinho ? "true" : "false")">
-                            Carrinho 🛒
-                        </a>
+                        <a itemid="car" class="nav-link" asp-area=""asp-controller="User" asp-action="Cart">Carrinho 🛒</a>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="User" asp-action="Profile">Perfil 👤</a>
                         </li>

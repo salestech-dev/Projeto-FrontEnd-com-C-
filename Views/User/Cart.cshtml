@@ -1,0 +1,194 @@
+@{
+    ViewData["Title"] = "Cart";
+}
+
+@{
+    ViewData["Title"] = "Seu Carrinho";
+}
+<style>
+    /* Gradiente de fundo do corpo (Layout) */
+    body {
+        background: linear-gradient(135deg, #4f46e5, #9333ea);
+        background-attachment: fixed;
+        /* Opcional: mantém o gradiente fixo ao rolar */
+    }
+
+    /* --- Estilos da página do carrinho --- */
+    .cartao-carrinho {
+        background-color: #fff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+
+    .titulo-carrinho {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .lista-itens {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 25px 0;
+    }
+
+    .item-carrinho {
+        display: flex;
+        align-items: center;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 12px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        /* Fundo branco para os itens */
+    }
+
+    .imagem-item {
+        width: 60px;
+        height: 60px;
+        border-radius: 6px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .info-item {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .nome-item {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #444;
+    }
+
+    .preco-item {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    .resumo-compra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .pagamento-selecao {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .texto-pagamento {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 8px;
+    }
+
+    .opcao-pagamento {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Estilo do botão de pagamento Pix */
+    .botao-pagamento {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 8px 18px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+    input[type="radio"] {
+        display: none;
+        /* Esconde o botão de rádio padrão */
+    }
+
+    input[type="radio"]:checked+.botao-pagamento {
+        background-color: #4f46e5;
+        color: #fff;
+        border-color: #4f46e5;
+    }
+
+    .valor-total {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .botao-finalizar-pedido {
+        background-color: #4f46e5;
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        width: 100%;
+        padding: 15px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .botao-finalizar-pedido:hover {
+        background-color: #9333ea;
+</style>
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5">
+            <div class="cartao-carrinho">
+                <h2 class="titulo-carrinho">Carrinho</h2>
+
+                <ul class="lista-itens">
+
+                    <li class="item-carrinho">
+                        <img src="/img/FileFrango.jpg" alt="Hambúrguer de Queijo" class="imagem-item">
+                        <div class="info-item">
+                            <span class="nome-item">Hambúrguer de Queijo</span>
+                            <span class="preco-item">R$ 25,00</span>
+                        </div>
+                    </li>
+
+                    <li class="item-carrinho">
+                        <img src="/img/classico.jpg" alt="" class="imagem-item">
+                        <div class="info-item">
+                            <span class="nome-item">Classico Burguer</span>
+                            <span class="preco-item">R$ 45,00</span>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="resumo-compra">
+                    <div class="pagamento-selecao">
+                        <span class="texto-pagamento">Selecione o pagamento</span>
+                        <div class="opcao-pagamento">
+                            <input type="radio" id="pagamentoPix" name="metodoPagamento" value="pix" checked>
+                            <label for="pagamentoPix" class="botao-pagamento">
+                                Pix
+                            </label>
+                            <input type="radio" id="pagamentoCartao" name="metodoPagamento" value="cartao" checked>
+                            <label for="pagamentoCartao" class="botao-pagamento">
+                                Cartão
+                            </label>
+                                <input type="radio" id="pagamentoDinheiro" name="metodoPagamento" value="Dinheiro" checked>
+                            <label for="pagamentoDinheiro" class="botao-pagamento">
+                                Dinheiro
+                            </label>
+                        </div>
+                    </div>
+                    <span class="valor-total">R$ 70,00</span>
+                </div>
+
+                <button class="botao-finalizar-pedido">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+</div>

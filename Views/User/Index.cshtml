@@ -1,28 +1,11 @@
 @{
     ViewData["Title"] = "Index";
-    ViewBag.DesativarCarrinho = false;
 }
 
 <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </header>
 
-
-@section Scripts {
-    <script>
-        $(document).ready(function() {
-            $('#btnAtivarCarrinho').click(function() {
-                // Remove a classe "disabled" do link do carrinho na navegação
-                $('.navbar-nav .nav-link').each(function() {
-                    if ($(this).text().includes('Carrinho')) {
-                        $(this).removeClass('disabled').removeAttr('aria-disabled');
-                    }
-                });
-                alert("O carrinho foi ativado! Agora você pode acessá-lo no menu.");
-            });
-        });
-    </script>
-}
 
 <div class="clientFirstPage">
     <div class="retangularProduct">
@@ -166,7 +149,7 @@
 </div>
 <!-- Botão no fim da página -->
 <div class="finalizar-container">
-    <a href="carrinho.html" class="btn-carrinho">
+    <a asp-action="Cart" asp-controller="User" role="button" class="btn-carrinho">
         🛒 Ir para o Carrinho
     </a>
 </div>

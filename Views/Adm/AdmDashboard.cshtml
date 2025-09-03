@@ -1,0 +1,89 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-5">Dashboard de Vendas</h1>
+    
+    <div class="row gx-4 gy-4">
+        
+        <div class="col-12 col-md-4">
+            <div class="card card-dashboard">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Vendas do Dia</h5>
+                    <h2 class="card-value text-success">R$ 1.250,00</h2>
+                    <p class="card-text text-muted">+15% vs ontem</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card card-dashboard">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Custos do Dia</h5>
+                    <h2 class="card-value text-danger">R$ 380,00</h2>
+                    <p class="card-text text-muted">-5% vs ontem</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card card-dashboard">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Lucro do Dia</h5>
+                    <h2 class="card-value text-primary">R$ 870,00</h2>
+                    <p class="card-text text-muted">+20% vs ontem</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card card-dashboard">
+                <div class="card-body">
+                    <h5 class="card-title">Vendas na Última Semana</h5>
+                    <canvas id="graficoVendas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Dados do Gráfico
+        const dados = {
+            labels: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'],
+            datasets: [{
+                label: 'Vendas Diárias (R$)',
+                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1,
+                data: [800, 950, 1100, 1050, 1300, 1500, 1250],
+            }]
+        };
+
+        // Configuração do Gráfico
+        const config = {
+            type: 'bar',
+            data: dados,
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        };
+
+        // Renderiza o Gráfico
+        const graficoVendas = new Chart(
+            document.getElementById('graficoVendas'),
+            config
+        );
+    </script>
+}

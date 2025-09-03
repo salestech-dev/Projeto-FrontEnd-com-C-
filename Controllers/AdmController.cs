@@ -4,23 +4,24 @@ using Projeto_FrontEnd_com_C_.Models;
 
 namespace Projeto_FrontEnd_com_C_.Controllers;
 
-public class UserController : Controller
+public class AdmController : Controller
 {
-    private readonly ILogger<UserController> _logger;
+    private readonly ILogger<AdmController> _logger;
 
-    public UserController(ILogger<UserController> logger)
+    public AdmController(ILogger<AdmController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult AdmLogin()
     {
         return View();
     }
-    public IActionResult Cart()
+    public IActionResult AdmDashboard()
     {
         return View();
     }
+   
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

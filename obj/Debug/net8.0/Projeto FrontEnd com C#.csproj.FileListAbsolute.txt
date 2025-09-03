@@ -59,3 +59,34 @@ C:\Users\Aluno SENAI.C308-LAB3-001\Desktop\AnotaIA\Projeto-FrontEnd-com-C-\obj\D
 C:\Users\Aluno SENAI.C308-LAB3-001\Desktop\AnotaIA\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.pdb
 C:\Users\Aluno SENAI.C308-LAB3-001\Desktop\AnotaIA\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.genruntimeconfig.cache
 C:\Users\Aluno SENAI.C308-LAB3-001\Desktop\AnotaIA\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\ref\Projeto FrontEnd com C#.dll
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\appsettings.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.staticwebassets.runtime.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.exe
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.deps.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.runtimeconfig.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.dll
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\bin\Debug\net8.0\Projeto FrontEnd com C#.pdb
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.AssemblyInfoInputs.cache
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.AssemblyInfo.cs
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.csproj.CoreCompileInputs.cache
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.RazorAssemblyInfo.cache
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.RazorAssemblyInfo.cs
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.sourcelink.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets\msbuild.Projeto FrontEnd com C#.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto FrontEnd com C#.props
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto FrontEnd com C#.props
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto FrontEnd com C#.props
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\scopedcss\bundle\Projeto FrontEnd com C#.styles.css
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\scopedcss\projectbundle\Projeto FrontEnd com C#.bundle.scp.css
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.dll
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\refint\Projeto FrontEnd com C#.dll
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.pdb
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\Projeto FrontEnd com C#.genruntimeconfig.cache
+C:\Users\Leticia\OneDrive\Área de Trabalho\Projeto FrontEnd com C#\Projeto-FrontEnd-com-C-\obj\Debug\net8.0\ref\Projeto FrontEnd com C#.dll

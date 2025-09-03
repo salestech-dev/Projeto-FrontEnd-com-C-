@@ -167,3 +167,36 @@ body {
   background-color: var(--accent);
   transform: scale(1.05);
 }
+
+
+/* Estilo para os cards do dashboard */
+.card-dashboard {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-dashboard:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+/* Estilo para o gráfico */
+#graficoVendas {
+    max-height: 400px; /* Limita a altura do gráfico em telas maiores */
+}
