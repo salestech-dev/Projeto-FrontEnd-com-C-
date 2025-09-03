@@ -1,75 +1,174 @@
 @{
-    ViewData["Title"] = "Sou Cliente";
+    ViewData["Title"] = "Index";
+    ViewBag.DesativarCarrinho = false;
 }
-<div class="clientFirstPage"> @* Div principal da página *@
-    <div class="CardapioContent"> @* Div que contém o cardápio *@
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
+
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</header>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#btnAtivarCarrinho').click(function() {
+                // Remove a classe "disabled" do link do carrinho na navegação
+                $('.navbar-nav .nav-link').each(function() {
+                    if ($(this).text().includes('Carrinho')) {
+                        $(this).removeClass('disabled').removeAttr('aria-disabled');
+                    }
+                });
+                alert("O carrinho foi ativado! Agora você pode acessá-lo no menu.");
+            });
+        });
+    </script>
+}
+
+<div class="clientFirstPage">
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/hamburguer.jpg" alt="">
         </div>
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
-        </div>
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
+        <div class="descriptionProduct">
+            <h1>BUENO BURGER</h1>
+            <p>Ingredientes: Alface,Tomate,Carne de Hamburguer,Queijo e Pão</p>
+            <span class="priceTag">R$ 29,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
         </div>
     </div>
-    <div class="CardapioContent"> @* Div que contém o cardápio *@
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/classico.jpg" alt="">
         </div>
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
-        </div>
-        <div class="retangularProduct"> @* Div que contém o produto *@
-            <div class="ProductIMG"> @* Div que contém a imagem do produto *@
-                <img src="" alt="IMG AQUI               ">
-            </div>
-            <div class="descriptionProduct"> @* Div que contém a descrição do produto *@
-                <h2>Nome do Produto</h2>
-                <p>Descrição do produto, ingredientes, etc.</p>
-                <span class="priceTag">R$ XX,XX</span>
-                <a href="#" class="addToCar">Adicionar ao Carrinho</a>
-            </div>
+        <div class="descriptionProduct">
+            <h1>CLASSICO BURGUER</h1>
+            <p>Ingredientes: Alface, Queijo Duplo, Carne Dupla e Pão</p>
+            <span class="priceTag">R$ 33,90</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
         </div>
     </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/hamburguer.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>BUENO BURGER</h1>
+            <p>Ingredientes: Alface,Tomate,Carne de Hamburguer,Queijo e Pão</p>
+            <span class="priceTag">R$ 29,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/classico.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>CLASSICO BURGUER</h1>
+            <p>Ingredientes: Alface, Queijo Duplo, Carne Dupla e Pão</p>
+            <span class="priceTag">R$ 33,90</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/hamburguer.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>BUENO BURGER</h1>
+            <p>Ingredientes: Alface,Tomate,Carne de Hamburguer,Queijo e Pão</p>
+            <span class="priceTag">R$ 29,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/classico.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>CLASSICO BURGUER</h1>
+            <p>Ingredientes: Alface, Queijo Duplo, Carne Dupla e Pão</p>
+            <span class="priceTag">R$ 33,90</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+    <div class="retangularProduct">
+        <div class="ProductIMG">
+            <img src="/img/FileFrango.jpg" alt="">
+        </div>
+        <div class="descriptionProduct">
+            <h1>Tudão File de Frango</h1>
+            <p>Tudão com File de Frango, Calabresa, Queijo, Presunto, Ovo e Alface</p>
+            <span class="priceTag">R$ 40,00</span>
+            <a href="#" class="addToCar">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+</div>
+<!-- Botão no fim da página -->
+<div class="finalizar-container">
+    <a href="carrinho.html" class="btn-carrinho">
+        🛒 Ir para o Carrinho
+    </a>
+</div>
+
 </div>

@@ -1,9 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewBag.DesativarCarrinho = true;
 }
 
+
+
+
 <div class="first-page">
-        <button class="loginButton">Sou Adm</button>
-        <a asp-action="Index" asp-controller="User" class="loginButton">Sou Cliente</a>
-        <button class="loginButton">Sou Cozinheiro</button>
+    <a class="loginButton">Sou Adm</a>
+    <a asp-action="Index" asp-controller="User" class="loginButton">Sou Cliente</a>
+    <a class="loginButton">Sou Cozinheiro</a>
 </div>
