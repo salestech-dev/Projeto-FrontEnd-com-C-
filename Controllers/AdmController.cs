@@ -22,6 +22,10 @@ public class AdmController : Controller
         return View();
     }
    
+    public IActionResult CadastrarProdutos()
+    {
+        return View();
+    }
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

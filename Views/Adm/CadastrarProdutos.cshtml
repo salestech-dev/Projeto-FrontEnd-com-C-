@@ -1,0 +1,98 @@
+@{
+    ViewData["Title"] = "Cadastrar Produtos";
+}
+
+<style>
+    body {
+        background: var(--light-bg);
+        color: var(--text-dark);
+    }
+
+    .formulario-produto {
+        background: var(--text-light);
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        padding: 32px;
+        max-width: 400px;
+        margin: 40px auto;
+    }
+
+    .formulario-produto h2 {
+        color: var(--primary);
+        text-align: center;
+        margin-bottom: 24px;
+        font-size: 2rem;
+    }
+
+    .formulario-produto label {
+        color: var(--text-dark);
+        font-weight: 500;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    .formulario-produto input,
+    .formulario-produto textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--primary);
+        margin-bottom: 18px;
+        font-size: 1rem;
+        background: var(--light-bg);
+        color: var(--text-dark);
+    }
+
+    .formulario-produto button,
+    .formulario-produto a {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .formulario-produto button {
+        background: var(--primary);
+        color: var(--text-light);
+    }
+
+    .formulario-produto button:hover {
+        background: var(--accent);
+    }
+
+    .formulario-produto a {
+        background: var(--secondary);
+        color: var(--text-light);
+    }
+
+    .formulario-produto a:hover {
+        background: var(--accent);
+    }
+</style>
+
+<div class="formulario-produto">
+    <h2>Cadastrar Produto</h2>
+    <form>
+        <label for="nomeProduto">Nome do Produto</label>
+        <input type="text" id="nomeProduto" placeholder="Digite o nome do produto">
+
+        <label for="precoProduto">Preço</label>
+        <input type="number" id="precoProduto" placeholder="Digite o preço">
+
+        <label for="descricaoProduto">Descrição</label>
+        <textarea id="descricaoProduto" rows="3" placeholder="Digite a descrição"></textarea>
+
+        <button type="submit">Cadastrar</button>
+        <a href="/Adm/AdmDashboard" class="btn btn-outline-secondary w-100 mt-2">Voltar</a>
+
+    </form>
+</div>
+</div>

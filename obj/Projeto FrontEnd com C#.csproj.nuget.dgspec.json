@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leticia\\OneDrive\\Área de Trabalho\\Projeto FrontEnd com C#\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj": {}
+    "C:\\Users\\Aluno SENAI.C308-LAB3-001\\Desktop\\AnotaIA\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leticia\\OneDrive\\Área de Trabalho\\Projeto FrontEnd com C#\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj": {
+    "C:\\Users\\Aluno SENAI.C308-LAB3-001\\Desktop\\AnotaIA\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leticia\\OneDrive\\Área de Trabalho\\Projeto FrontEnd com C#\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno SENAI.C308-LAB3-001\\Desktop\\AnotaIA\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj",
         "projectName": "Projeto FrontEnd com C#",
-        "projectPath": "C:\\Users\\Leticia\\OneDrive\\Área de Trabalho\\Projeto FrontEnd com C#\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj",
-        "packagesPath": "C:\\Users\\Leticia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leticia\\OneDrive\\Área de Trabalho\\Projeto FrontEnd com C#\\Projeto-FrontEnd-com-C-\\obj\\",
+        "projectPath": "C:\\Users\\Aluno SENAI.C308-LAB3-001\\Desktop\\AnotaIA\\Projeto-FrontEnd-com-C-\\Projeto FrontEnd com C#.csproj",
+        "packagesPath": "C:\\Users\\Aluno SENAI.C308-LAB3-001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno SENAI.C308-LAB3-001\\Desktop\\AnotaIA\\Projeto-FrontEnd-com-C-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leticia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Aluno SENAI.C308-LAB3-001\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
