@@ -8,9 +8,9 @@
 <style>
     /* Gradiente de fundo do corpo (Layout) */
     body {
-        background: linear-gradient(135deg, #4f46e5, #9333ea);
+        background: linear-gradient(135deg, var(--primary));
         background-attachment: fixed;
-        /* Opcional: mantém o gradiente fixo ao rolar */
+   
     }
 
     /* --- Estilos da página do carrinho --- */
@@ -113,9 +113,9 @@
     }
 
     input[type="radio"]:checked+.botao-pagamento {
-        background-color: #4f46e5;
+        background-color: var(--primary);
         color: #fff;
-        border-color: #4f46e5;
+        border-color: var(--primary);
     }
 
     .valor-total {
@@ -125,7 +125,7 @@
     }
 
     .botao-finalizar-pedido {
-        background-color: #4f46e5;
+        background-color: var(--primary);
         color: #fff;
         border: none;
         border-radius: 25px;
@@ -138,7 +138,7 @@
     }
 
     .botao-finalizar-pedido:hover {
-        background-color: #9333ea;
+        background-color: var(--secondary);
 </style>
 <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
