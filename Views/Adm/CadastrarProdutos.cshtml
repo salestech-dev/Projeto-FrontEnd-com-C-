@@ -1,3 +1,4 @@
+@model Produto
 @{
     ViewData["Title"] = "Cadastrar Produtos";
 }
@@ -80,18 +81,18 @@
 
 <div class="formulario-produto">
     <h2>Cadastrar Produto</h2>
-    <form>
+    <form asp-controller="Adm" asp-action="CadastrarProdutos" method="post">
         <label for="nomeProduto">Nome do Produto</label>
-        <input type="text" id="nomeProduto" placeholder="Digite o nome do produto">
+        <input asp-for="NomeProduto" type="text" id="nomeProduto" placeholder="Digite o nome do produto">
 
         <label for="precoProduto">Preço</label>
-        <input type="number" id="precoProduto" placeholder="Digite o preço">
+        <input asp-for="ValorProduto" type="number" id="precoProduto" placeholder="Digite o preço">
 
         <label for="descricaoProduto">Descrição</label>
-        <textarea id="descricaoProduto" rows="3" placeholder="Digite a descrição"></textarea>
+        <textarea asp-for="DescricaoProduto" id="descricaoProduto" rows="3" placeholder="Digite a descrição"></textarea>
 
         <button type="submit">Cadastrar</button>
-        <a href="/Adm/AdmDashboard" class="btn btn-outline-secondary w-100 mt-2">Voltar</a>
+        <button class="btn btn-outline-secondary w-100 mt-2">Voltar</button>
 
     </form>
 </div>

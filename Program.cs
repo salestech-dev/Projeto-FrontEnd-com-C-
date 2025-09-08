@@ -1,9 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using Projeto_FrontEnd_com_C_.Db;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+builder.Services.AddControllers();
+string mySqlConnection = builder.Configuration.GetConnectionString("DefaultDatabase");
+builder.Services.AddDbContext<BancoContext>(opt =>
+{
+    opt.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection));
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
